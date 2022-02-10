@@ -49,6 +49,27 @@
 }
 
 
+/*-----------footer--------*/
+
+.fbg-img {
+    /* The image used */
+    background-image: url('../images/Footer.png');
+    min-height: 80px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footerW {
+    font-size: x-large;
+}
+
+
+/*-------todolist ------*/
+
+
 /*-----------CALENDAR------------*/
 
 .clearfix::after,
