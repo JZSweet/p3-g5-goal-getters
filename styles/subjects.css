@@ -3,8 +3,13 @@
   margin: 0;
   padding: 0;
   grid-template-columns: 33.34% 33.33% 33.33%;
-  grid-template-rows: [row1-end] 240px [row2-end] 326px [row3-end] 326px [row4-end] 90px;
+  grid-template-rows: [row1-end] 240px [row2-end] 425px [row3-end] 425px [row4-end] 90px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@font-face {
+  font-family: League-Gothic-Regular;
+  src: url(LeagueGothic-Regular.otf);
 }
 
 .header {
@@ -15,34 +20,48 @@
   grid-template-rows: [headerSubrow1] 133px [headerSubrow2] 107px;
   grid-template-columns: 24.5% 75.5%;
   background: #b3e2ed;
+  box-shadow: 0px 6px 6px grey;
 }
 
 .logo {
   grid-row: 1 / span 2;
+  padding-top: 10%;
+  padding-right: 8%;
 }
 
 .logo img {
   width: 60%;
   max-width: 196px;
-  margin-left: 50px;
-  margin-top: 25px;
+  min-width: 100px;
   border-radius: 50%;
-  box-shadow: 0px 0px 10px grey;
+  float: right;
+  box-shadow: 0px 6px 6px grey;
 }
 
-.siteName {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 48px;
-  margin-top: 45px;
+.siteName1 {
+  font-family: "League-Gothic-Regular", Courier, monospace;
+  font-size: 75px;
+  margin-top: 40px;
+  color: #1f6a73;
+}
+
+.siteName1 .specialColor {
+  color: #e6162e;
 }
 
 .tagLine {
   margin-left: 65px;
+  margin-top: -15px;
+}
+
+.menu {
+  margin-bottom: 0px;
+  margin-top: 30px;
 }
 
 li {
   display: inline-block;
-  width: 120px;
+  width: 15%;
   text-align: center;
 }
 
@@ -57,64 +76,120 @@ li a {
   color: black;
 }
 
-.card-body1 {
-  background: #daa405;
-  margin: 25px 55px;
-  border-style: solid;
-}
-
 .card-title {
-  margin-left: 50px;
   padding-top: 15px;
 }
 
 .card-subtitle {
-  margin-left: 50px;
   padding-bottom: 15px;
 }
 
-.card-text {
-  margin: 60px 55px;
+.card-img-top {
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid black;
+  float: right;
+  /*display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+  margin-right: 15px;*/
 }
 
-.card-footer {
-  margin: 55px 55px;
-  display: inline-block;
-  text-align: center;
+.cardMenu {
+  float: right;
+}
+
+.card-text {
+  padding: 10% 5% 0% 10%;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.mathCard {
+  padding: 10% 5% 0% 10%;
+}
+
+.card-body1 {
+  background: #daa405;
+  padding: 5%;
+  border: 1px solid black;
+}
+
+.roboticsCard {
+  padding: 10% 5% 0% 10%;
 }
 
 .card-body2 {
   background: #ef6e4e;
-  margin: 25px 55px;
+  padding: 5%;
+  border: 1px solid black;
+}
+
+.humanitiesCard {
+  padding: 10% 5% 0% 10%;
 }
 
 .card-body3 {
   background: #206a73;
-  margin: 25px 55px;
+  padding: 5%;
+  border: 1px solid black;
+  color: white;
+}
+
+.scienceCard {
+  padding: 10% 5% 0% 10%;
 }
 
 .card-body4 {
   background: #e6162e;
-  margin: 25px 55px;
+  padding: 5%;
+  border: 1px solid black;
+}
+
+.readingCard {
+  padding: 10% 5% 0% 10%;
 }
 
 .card-body5 {
   background: #8bcad9;
-  margin: 25px 55px;
+  padding: 5%;
+  border: 1px solid black;
+}
+
+.peCard {
+  padding: 10% 5% 0% 10%;
 }
 
 .card-body6 {
   background: #c4c4c4;
-  margin: 25px 55px;
+  padding: 5%;
+  border: 1px solid black;
 }
 
-/*.mathCard img {
-  width: 20%;
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px grey;
-}*/
+.card-footer {
+  padding: 0% 5% 15% 10%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 0px 6px 6px grey;
+}
+
+.footer img {
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+.footer p {
+  display: inline-block;
+  margin-right: 150px;
+  margin-bottom: 23px;
+  margin-top: 0px;
+}
 
 .footer {
   grid-column: 1 / span 3;
   background: #8bcad9;
+  text-align: center;
+  box-shadow: 0px 6px 6px grey;
 }
