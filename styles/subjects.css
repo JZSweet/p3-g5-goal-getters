@@ -1,112 +1,115 @@
 .container {
-  display: grid;
-  margin: 0;
-  padding: 0;
-  grid-template-columns: 33.34% 33.33% 33.33%;
-  grid-template-rows: [row1-end] 240px [row2-end] 326px [row3-end] 326px [row4-end] 90px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: 33.34% 33.33% 33.33%;
+    grid-template-rows: [row1-end] 240px [row2-end] 326px [row3-end] 326px [row4-end] 90px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .header {
-  /* Main grid */
-  grid-column: 1 / span 3;
-  /* Sub-grid */
-  display: grid;
-  grid-template-rows: [headerSubrow1] 133px [headerSubrow2] 107px;
-  grid-template-columns: 24.5% 75.5%;
-  background: #b3e2ed;
+    /* Main grid */
+    grid-column: 1 / span 3;
+    /* Sub-grid */
+    display: grid;
+    grid-template-rows: [headerSubrow1] 133px [headerSubrow2] 107px;
+    grid-template-columns: 24.5% 75.5%;
+    background: #b3e2ed;
 }
 
 .logo {
-  grid-row: 1 / span 2;
+    grid-row: 1 / span 2;
 }
 
 .logo img {
-  width: 60%;
-  max-width: 196px;
-  margin-left: 50px;
-  margin-top: 25px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px grey;
+    width: 60%;
+    max-width: 196px;
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px grey;
 }
 
 .siteName {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 48px;
-  margin-top: 45px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 48px;
+    margin-top: 45px;
 }
 
 .tagLine {
-  margin-left: 65px;
+    margin-left: 65px;
 }
 
 li {
-  display: inline-block;
-  width: 120px;
-  text-align: center;
+    display: inline-block;
+    width: 120px;
+    margin-left: 50px;
+    min-width: 5%;
+    text-align: center;
 }
 
 li img {
-  display: block;
-  height: 50px;
-  margin: auto;
+    display: block;
+    height: 50px;
+    margin: auto;
 }
 
 li a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 .card-body1 {
-  background: #daa405;
-  margin: 25px 55px;
-  border-style: solid;
+    background: #daa405;
+    margin: 25px 55px;
+    border-style: solid;
 }
 
 .card-title {
-  margin-left: 50px;
-  padding-top: 15px;
+    margin-left: 50px;
+    padding-top: 15px;
 }
 
 .card-subtitle {
-  margin-left: 50px;
-  padding-bottom: 15px;
+    margin-left: 50px;
+    padding-bottom: 15px;
 }
 
 .card-text {
-  margin: 60px 55px;
+    margin: 60px 55px;
 }
 
 .card-footer {
-  margin: 55px 55px;
-  display: inline-block;
-  text-align: center;
+    margin: 55px 55px;
+    display: inline-block;
+    text-align: center;
 }
 
 .card-body2 {
-  background: #ef6e4e;
-  margin: 25px 55px;
+    background: #ef6e4e;
+    margin: 25px 55px;
 }
 
 .card-body3 {
-  background: #206a73;
-  margin: 25px 55px;
+    background: #206a73;
+    margin: 25px 55px;
 }
 
 .card-body4 {
-  background: #e6162e;
-  margin: 25px 55px;
+    background: #e6162e;
+    margin: 25px 55px;
 }
 
 .card-body5 {
-  background: #8bcad9;
-  margin: 25px 55px;
+    background: #8bcad9;
+    margin: 25px 55px;
 }
 
 .card-body6 {
-  background: #c4c4c4;
-  margin: 25px 55px;
+    background: #c4c4c4;
+    margin: 25px 55px;
 }
+
 
 /*.mathCard img {
   width: 20%;
@@ -115,6 +118,6 @@ li a {
 }*/
 
 .footer {
-  grid-column: 1 / span 3;
-  background: #8bcad9;
+    grid-column: 1 / span 3;
+    background: #8bcad9;
 }
