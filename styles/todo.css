@@ -1,0 +1,74 @@
+/* Navbar */
+
+.bg-img {
+    /* The image used */
+    background-image: url("../images/Subjects Hover.png");
+    min-height: 310px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+
+/* Position the navbar container inside the image */
+
+.container {
+    position: relative;
+    margin: 20px;
+    top: 250px;
+    width: auto;
+    position: relative;
+    margin: 20px;
+    top: 250px;
+    left: 300px;
+    width: auto;
+}
+
+
+/* The navbar */
+
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+
+/* Navbar links */
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+/*-----------footer--------*/
+
+.fbg-img {
+    /* The image used */
+    background-image: url("../images/Footer.png");
+    min-height: 80px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footerW {
+    font-size: x-large;
+}
+
+
+/*-------todolist ------*/
