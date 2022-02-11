@@ -6,52 +6,75 @@ body {
 
 /* Navbar */
 .bg-img {
-    /* The image used */
-    background-image: url('../images/Subjects Hover.png');
-    min-height: 310px;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* Needed to position the navbar */
-    position: relative;
+  /* The image used */
+  background-image: url("../images/Subjects Hover.png");
+  min-height: 310px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Needed to position the navbar */
+  position: relative;
 }
-
 
 /* Position the navbar container inside the image */
 
 .container {
+
     position: relative;
     margin: 20px;
     top: 250px;
     width: auto;
-}
+=======
+  position: relative;
+  margin: 20px;
+  top: 250px;
+  left: 300px;
+  width: auto;
 
+}
 
 /* The navbar */
 
 .topnav {
-    overflow: hidden;
-    background-color: transparent;
+  overflow: hidden;
+  background-color: transparent;
 }
-
 
 /* Navbar links */
 
 .topnav a {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .topnav a:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 
+/*-----------footer--------*/
+
+.fbg-img {
+  /* The image used */
+  background-image: url("../images/Footer.png");
+  min-height: 80px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.footerW {
+  font-size: x-large;
+}
+
+/*-------todolist ------*/
 
 /*-----------CALENDAR PAGE------------*/
 
@@ -89,90 +112,94 @@ body {
 /* Calendar */
 .clearfix::after,
 .calendar ol::after {
-    content: '.';
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
-
 
 /* ================
 Calendar Styling */
 
 .calendar {
+
     border-radius: 10px;
     margin-left: 50px;
     margin-right: 260px
+=======
+  border-radius: 10px;
+
 }
 
 .month {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 @media (min-width: 992px) {
-    .month {
-        font-size: 3.5rem;
-    }
+  .month {
+    font-size: 3.5rem;
+  }
 }
 
 .calendar ol li {
-    float: left;
-    width: 14.28571%;
+  float: left;
+  width: 14.28571%;
 }
 
 .calendar .day-names {
-    border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .calendar .day-names li {
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
 
 .calendar .days li {
-    border-bottom: 1px solid #eee;
-    min-height: 8rem;
+  border-bottom: 1px solid #eee;
+  min-height: 8rem;
 }
 
 .calendar .days li .date {
-    margin: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
 .calendar .days li .event {
-    font-size: 0.75rem;
-    padding: 0.4rem;
-    color: white;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    border-radius: 4rem;
-    margin-bottom: 1px;
+  font-size: 0.75rem;
+  padding: 0.4rem;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 4rem;
+  margin-bottom: 1px;
 }
 
 .calendar .days li .event.span-2 {
-    width: 200%;
+  width: 200%;
 }
 
 .calendar .days li .event.begin {
-    border-radius: 1rem 0 0 1rem;
+  border-radius: 1rem 0 0 1rem;
 }
 
 .calendar .days li .event.end {
-    border-radius: 0 1rem 1rem 0;
+  border-radius: 0 1rem 1rem 0;
 }
 
 .calendar .days li .event.clear {
-    background: none;
+  background: none;
 }
 
-.calendar .days li:nth-child(n+29) {
-    border-bottom: none;
+.calendar .days li:nth-child(n + 29) {
+  border-bottom: none;
 }
 
 .calendar .days li.outside .date {
-    color: #ddd;
+  color: #ddd;
 }
+
 
 .cards {
     max-height: 300px;
@@ -194,3 +221,20 @@ Calendar Styling */
     padding-right: 50px;
     text-align: right;
 }
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+  min-height: 100vh;
+  background-color: #3ca55c;
+  background-image: linear-gradient(147deg, #3ca55c 0%, #b5ac49 100%);
+}
+
+/*-----------CALENDAR------------*/
+
