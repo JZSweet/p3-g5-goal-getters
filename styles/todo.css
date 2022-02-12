@@ -52,6 +52,24 @@
     color: black;
 }
 
+.accordion-header .accordion-button {
+    background-color: #206A73;
+    color: azure
+    /* display: block;
+    padding: 10px;
+    margin: -10px -15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; */
+}
+
+.accordion-header .accordion-button svg {
+    fill: aliceblue
+}
+
+.accordion-toggle.collapsed {
+    background-color: white;
+}
+
 
 /*-----------footer--------*/
 
