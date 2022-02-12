@@ -62,6 +62,10 @@
     border-top-right-radius: 4px; */
 }
 
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/accordion-collapsed.svg");
+}
+
 .accordion-header .accordion-button svg {
     fill: aliceblue
 }
