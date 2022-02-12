@@ -1,109 +1,60 @@
 body {
     min-height: 100vh;
     background-color: white;
-    background-image: linear-gradient(147deg, white, #e7d697 100%);
+    background-image: linear-gradient(147deg, white, #ffffff 100%);
 }
 
-<<<<<<< Updated upstream
-/* Navbar */
-.bg-img {
-  /* The image used */
-  background-image: url("../images/Subjects Hover.png");
-  min-height: 310px;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* Needed to position the navbar */
-  position: relative;
-}
-
-/* Position the navbar container inside the image */
-
-.container {
-
-    position: relative;
-    margin: 20px;
-    top: 250px;
-    width: auto;
-}
-=======
 /*---Navbar---*/  
-  .header {
-    /* Main grid */
-    grid-column: 1 / span 3;
-    /* Sub-grid */
-    display: grid;
-    grid-template-rows: [headerSubrow1] 133px [headerSubrow2] 107px;
-    grid-template-columns: 24.5% 75.5%;
-    background: #b3e2ed;
-    margin-left: -100px;
-    margin-top: 20px;
-    width: auto;
-    margin-right: -100px;
-  }
   
-  .logo {
-    grid-row: 1 / span 2;
-  }
-  
-  .logo img {
-    width: 60%;
-    max-width: 196px;
-    margin-left: 50px;
-    margin-top: 25px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px grey;
-  }
-  
-  .siteName {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 48px;
-    margin-top: 45px;
-  }
-  
-  .tagLine {
-    margin-left: 65px;
-  }
-  
-  li {
-    display: inline-block;
-    width: 120px;
-    text-align: center;
-  }
-  
-  li img {
-    display: block;
-    height: 50px;
-    margin: auto;
-  }
-  
-  li a {
-    text-decoration: none;
-    color: black;
-  }
->>>>>>> Stashed changes
-
-/* The navbar */
-
-.topnav {
-  overflow: hidden;
-  background-color: transparent;
+.header {
+  /* Main grid */
+  grid-column: 1 / span 3;
+  /* Sub-grid */
+  display: grid;
+  grid-template-rows: [headerSubrow1] 133px [headerSubrow2] 107px;
+  grid-template-columns: 24.5% 75.5%;
+  background: #b3e2ed;
+  margin-left: -100px;
+  margin-right: -100px;
 }
 
-/* Navbar links */
+.logo {
+  grid-row: 1 / span 2;
+}
 
-.topnav a {
-  float: left;
-  color: #000000;
+.logo img {
+  width: 60%;
+  max-width: 196px;
+  margin-left: 50px;
+  margin-top: 25px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.siteName {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 48px;
+  margin-top: 45px;
+}
+
+.tagLine {
+  margin-left: 65px;
+}
+
+li {
+  display: inline-block;
+  width: 120px;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
 }
 
-.topnav a:hover {
-  background-color: rgb(255, 255, 255);
+li img {
+  display: block;
+  height: 50px;
+  margin: auto;
+}
+
+li a {
+  text-decoration: none;
   color: black;
 }
 
@@ -147,7 +98,7 @@ body {
     padding: 15px;
     margin-top: -25px;
     margin-bottom: 25px;
-    margin-right: 200px;
+    margin-right: 180px;
 }
 
 .btn-primary {
@@ -174,10 +125,9 @@ body {
 Calendar Styling */
 
 .calendar {
-
-    border-radius: 10px;
+    border-color: 5px #DAA405;
     margin-left: 50px;
-    margin-right: 50px
+
 }
 
 .month {
@@ -216,7 +166,7 @@ Calendar Styling */
 .calendar .days li .event {
   font-size: 0.75rem;
   padding: 0.4rem;
-  color: white;
+  color: rgb(0, 0, 0);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -225,7 +175,7 @@ Calendar Styling */
 }
 
 .calendar .days li .event.span-2 {
-  width: 200%;
+  width: 300%;
 }
 
 .calendar .days li .event.begin {
@@ -248,36 +198,35 @@ Calendar Styling */
   color: #ddd;
 }
 
+.icon {
+  max-width: 25px;
+  max-height: 25px;
+  float: left;
+}
+
 
 .cards {
     max-height: 400px;
     max-width: 300px;
     margin-bottom: 300px;
     margin-right: 50px;
-    margin-left: 50px;
 }
 
+.marchCalendar {
+  display: flex;
+  max-height: 200px;
+  max-width: 300px;
+}
 
 /*-----------FOOTER------------*/
 .footer {
     background-color: #B3E2ED;
     color: black;
     margin-left: -15px;
-    margin-top: 130px;
+    margin-top: 140px;
     width: auto;
     padding: 20px;
     padding-right: 50px;
     text-align: right;
 }
 
-<<<<<<< Updated upstream
-/*
-*
-* ==========================================
-* FOR DEMO PURPOSES
-* ==========================================
-*
-*/
-
-=======
->>>>>>> Stashed changes
