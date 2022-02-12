@@ -214,8 +214,8 @@ Calendar Styling */
 
 .marchCalendar {
   display: flex;
-  max-height: 200px;
-  max-width: 300px;
+  max-height: 150px;
+  max-width: 200px;
 }
 
 /*-----------FOOTER------------*/
