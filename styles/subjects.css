@@ -126,16 +126,11 @@ li a {
   border: 1px solid black;
   margin-right: 20px;
   float: right;
-  /*position: relative;
-  left: 110px;
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 50px;
-  margin-right: 15px;*/
 }
 
 .cardMenu {
   float: right;
+  max-height: 30px;
 }
 
 .card-text {
