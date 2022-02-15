@@ -119,3 +119,9 @@ li a {
   grid-column: 1 / span 3;
   background: #8bcad9;
 }
+
+@media only screen and (max-width: 992px) {
+  .container {
+    display: block;
+    position: relative;
+  }
