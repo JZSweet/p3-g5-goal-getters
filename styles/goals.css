@@ -1,0 +1,129 @@
+.container2 {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: [row1-end] 240px [row2-end] 80px [row3-end] 400px [row4-end] 400px [row5-end] 90px;
+}
+
+@font-face {
+  font-family: League-Gothic-Regular;
+  src: url(LeagueGothic-Regular.otf);
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(Roboto-Regular.ttf);
+}
+
+.container2 {
+  font-family: "Roboto-Regular", Courier, monospace;
+}
+
+.header {
+  /* Main grid */
+  grid-column: 1 / span 3;
+  /* Sub-grid */
+  display: grid;
+  grid-template-rows: [headerSubrow1] 145px [headerSubrow2] 107px;
+  grid-template-columns: 24.5% 75.5%;
+  background: #b3e2ed;
+  box-shadow: 0px 6px 6px grey;
+}
+
+.siteTitle {
+  display: inline-block;
+}
+
+.siteTitleWrapper {
+  display: flex;
+}
+
+.logo {
+  grid-row: 1 / span 2;
+  padding-top: 10%;
+  padding-right: 8%;
+}
+
+.logo img {
+  width: 60%;
+  max-width: 196px;
+  min-width: 100px;
+  border-radius: 50%;
+  float: right;
+  box-shadow: 0px 6px 6px grey;
+}
+
+.nameTag {
+  flex-grow: 1;
+}
+
+.siteName1 {
+  font-family: "League-Gothic-Regular", Courier, monospace;
+  font-size: 75px;
+  margin-top: 40px;
+  color: #1f6a73;
+}
+
+.siteName1 .specialColor {
+  color: #e6162e;
+}
+
+.tagLine {
+  margin-left: 30px;
+}
+
+.siteTitle img {
+  border-radius: 50%;
+  max-width: 70px;
+  max-height: 70px;
+  box-shadow: 0px 6px 6px grey;
+  margin-top: 40px;
+  margin-right: 35px;
+  flex-shrink: 1;
+}
+
+.menu {
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+
+li {
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+}
+
+li img {
+  display: block;
+  height: 35px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.cardBody1 {
+  background: #B3E2ED;
+  text-align: center;
+  margin: 25px 55px;
+  border-style: solid;
+}
+
+.cardTracker {
+  background: white;
+  border-style: solid;
+}
+
+.cardLeftTitle {
+  color: #1f6a73;
+  font-weight: bold;
+}
+
+.footer {
+  grid-column: 1 / span 3;
+  background: #8bcad9;
+}

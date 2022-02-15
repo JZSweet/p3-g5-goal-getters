@@ -71,7 +71,7 @@
 }
 
 .tagLine {
-margin-left: 30px;
+  margin-left: 30px;
 }
 
 .siteTitle img {
@@ -202,7 +202,6 @@ li a {
 
 .card-footer {
   padding: 2% 5% 2% 2%;
-  display: inline-block;
   text-align: center;
   border: 1px solid black;
   box-shadow: 0px 6px 6px grey;
@@ -230,4 +229,112 @@ li a {
   background: #8bcad9;
   text-align: right;
   box-shadow: 0px 6px 6px grey;
+}
+
+.hamburgerMenu {
+  display: none;
+}
+
+@media only screen and (max-width: 1010px) {
+  body {
+    text-align: center;
+  }
+
+  .header,
+  .card {
+    text-align: left;
+  }
+
+  .logo {
+    grid-row: unset;
+  }
+
+  nav {
+    grid-column: 1 / span 2;
+  }
+
+  .container {
+    display: block;
+    position: relative;
+  }
+
+  .card {
+    display: inline-block;
+    padding: 3%;
+    width: 49%;
+    box-sizing: border-box;
+  }
+
+  .card-footer span {
+    font-size: 0;
+  }
+
+  .card-footer table {
+    width: 100%;
+  }
+
+  .card-footer td {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .header {
+    grid-template-rows: [headerSubrow1] 175px [headerSubrow2] auto;
+    position: relative;
+  }
+
+  .hamburgerMenu {
+    display: block;
+    position: absolute;
+    right: 53px;
+    top: 125px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 110px;
+  }
+
+  li {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #1f6a73;
+  }
+
+  li img {
+    display: none;
+    margin: 0;
+  }
+
+  li a {
+    display: inline-block;
+  }
+
+  .card {
+    display: block;
+    width: unset;
+    padding: 5%;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    width: auto;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    background-color: inherit;
+    box-shadow: inherit;
+  }
 }
