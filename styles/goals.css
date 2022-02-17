@@ -11,9 +11,14 @@
 }
 
 .quote {
-  padding-top: 30px;
+  padding-top: 15px;
   grid-column: 1 / span 2;
-  text-align:  center;
+  text-align: center;
+  color: #1f6a73;
+}
+
+.quote .specialColor {
+  color: #e6162e;
 }
 
 .reward {
