@@ -5,7 +5,9 @@
 [Deployed Project](https://jzsweet.github.io/p3-g5-goal-getters/)
 
 ## Authors
-Kristi Bar, Jessica Waite, Jiaqian Zhao 
+- Kristi Bar 
+- Jessica Waite
+- Jiaqian Zhao(JZ) 
 
 
 ## Description
@@ -14,10 +16,11 @@ This results in students inadvertently turning in assignments late, receiving lo
 
 A centralized digital place to organize their assignments that is simple and fun to use, could improve communication, grades, and motivation.
 
-## Image
-# Homepage
-!(images/Goal Getter.png)
 
-# Goals page
+## Image
+* Homepage
 ![Homepage](./images/GoalGetter.png)
+
+
+* Goals page
 ![Goal page](./images/GoalGetter1.png)
