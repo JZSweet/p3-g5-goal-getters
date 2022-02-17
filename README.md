@@ -16,6 +16,8 @@ A centralized digital place to organize their assignments that is simple and fun
 
 ## Image
 # Homepage
-![Screenshot](./images/Goal Getter.png)
+!(images/Goal Getter.png)
+
 # Goals page
-![Screenshot](./images/Goal Getter (1).png)
+![Homepage](./images/GoalGetter.png)
+![Goal page](./images/GoalGetter1.png)
